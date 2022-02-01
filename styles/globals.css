@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    box-sizing: border-box;
+}
+html,
+body {
+    background-color: #202225;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.mint-button {
+    background: rgb(32, 129, 226);
+    background-size: 200% 200%;
+    animation: gradient-animation 4s ease infinite;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+.mint-button:hover {
+    
+    background: -webkit-linear-gradient(left, #5771c6, #35aee2);;
+}
