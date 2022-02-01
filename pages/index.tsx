@@ -10,7 +10,7 @@ import Hero from '../components/Hero'
 
 const style = {
   wrapper: ``,
-  walletConnectWrapper: `flex flex-col justify-center items-center h-screen w-screen bg-[#3b3d42] `,
+  walletConnectWrapper: `flex flex-col justify-center items-center h-screen w-screen bg-[#000] `,
   button: `flex flex-row justify-center items-center my-5 bg-[#2952e3] p-3 rounded cursor-pointer hover:bg-[#2546bd] text-white font-semibold text-base`,
   details: `text-lg text-center text=[#282b2f] font-semibold mt-4`,
 }
